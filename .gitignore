@@ -1,0 +1,35 @@
+train/
+test/
+
+# Ignore dataset files
+data/
+*.csv
+*.json
+*.zip
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore model files
+*.h5
+*.ckpt
+*.pb
+*.pt
+
+# Ignore environment files
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+
+.vs/
